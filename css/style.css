@@ -4,10 +4,10 @@
     --header-hight: 3rem;
     /* Colors */
     /*fav color*/
-    --hue-color: ;
+    --hue-color: 48;
 
     /*HSL color mode*/
-    --first-color: ;
+    --first-color: hsl(var(--hue-color)), 69%, 50%);
     --first-color-second: ;
     --first-color-alt: ;
     --first-color-lighter: ;
@@ -17,7 +17,7 @@
     --input-color: ;
     --body-color: ;
     --container-colo: ;
-    
+
 
 }
 
