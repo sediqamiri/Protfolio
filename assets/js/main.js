@@ -22,5 +22,13 @@ const navMenu = document.getElementById('nav-menu'),
     }
 
     /* Remove Menu Mobile */
-
+    const navLink = document.querySelectorAll('.nav_link')
+    
+    function linkAction(){
+        const navMenu= document.getElementById('nav-menu')
+        
+        //When we click on each nav_link, we remove the show-menu class
+    }
+    navLink.forEach(n => n.addEventListener('click', linkAction))
+    
     
