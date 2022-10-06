@@ -12,4 +12,15 @@ const navMenu = document.getElementById('nav-menu'),
         })
     }
 
-     
+     /* Menu Hidden */
+     /* Validate if constant exists */
+
+     if(navClose){
+        navClose.addEventListener('click', () =>{
+            navMenu.classList.remove('show-menu')
+        })
+    }
+
+    /* Remove Menu Mobile */
+
+    
