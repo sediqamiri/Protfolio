@@ -201,7 +201,19 @@
     .nav_icon{
         font-size: 1.2rem;
     }
-    
+
+    .nav_close{
+        position: absolute;
+        right: 1.3rem;
+        bottom: .5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--first-color);
+    }
+    .nav_close:hover{
+        color:var(--first-color-alt)
+    }
+
 
 
 
