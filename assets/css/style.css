@@ -1,5 +1,6 @@
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 :root{
     --header-hight: 3rem;
     /* Colors */
@@ -169,7 +170,7 @@
     }
 
     @media screen and (max-width: 767px) {
-        .nav{
+        .nav_menu{
         position: fixed;
         bottom: -100%;
         left: 0;
