@@ -220,7 +220,18 @@
         bottom: 0;
     }
 
+    /* Home */
 
+    .home_container{
+        gap: 1rem;
+    }
+
+    .home_content{
+        grid-template-columns: .5fr 3fr;
+        padding-top: 3.5rem;
+        align-items: center;
+    }
+    
 
 
 
