@@ -16,7 +16,7 @@
     --text-color: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 80%, 65%);
-    --body-color: hsl(var(--hue-color), 75%, 50%);
+    --body-color: hsl(var(--hue-color), 100%, 99%);
     --container-color: #fff;
 
     /* Body Font */
@@ -268,7 +268,7 @@
     }
 
     .home_scroll{
-        /* display: none; */
+        display: none;
     }
     
     .home_scroll-button{
